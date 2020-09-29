@@ -21,3 +21,4 @@ Route::post('/retrieve', 'informationsController@retrieve');
 Route::post('/create', 'informationsController@create');
 Route::post('/update', 'informationsController@update');
 Route::post('/delete/{id}','informationsController@delete');
+Route::post('/image', 'ImageController@store');
